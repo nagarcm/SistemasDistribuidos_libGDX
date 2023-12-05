@@ -9,6 +9,7 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.useVsync(false);
+		int n =0;
 		config.setTitle("SitemasDistribuidos_GDX");
 		new Lwjgl3Application(new Principal(), config);
 	}
